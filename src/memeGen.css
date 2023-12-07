@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  main{
+    padding: 36px;
+  }
+  
+  .memeHead {
+    background-color: #f977ce;
+    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align the content in the center */
+    padding: 10px;
+    color: #FAF9F6;
+  }
+  
+  .leftText {
+    flex: 1;
+  }
+  
+  .rightText {
+    text-align: right; /* Align the "CDC project" text to the right */
+    padding-right: 20px
+  }
+  
+  .mrFrog {
+    max-width: 100px; /* Adjust the max-width of the image as needed */
+    padding: .20px;
+  }
+  
+  .form{
+   grid-template-rows: 40px 40px;
+  grid-template-columns: 1fr 1fr;
+  display:grid;
+  gap: 17px;
+  border-radius: 5px;
+  text-indent: 5px;
+  }
+
+  .theButton{
+    grid-column: 1/-1;
+    border-radius: 5px;
+    color: white;
+    background: #f977ce;
+    border: none;
+    cursor: pointer;
+   }
+   .memeImage{
+      float: center;
+      width:  600px;
+      height: 600px;
+      object-fit: cover;
+   }
+   .imageContainer{
+    text-align: center;
+   }
+  
+  
